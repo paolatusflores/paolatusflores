@@ -8,7 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-       <audio id="mi-audio" src="flores.mp3" autoplay loop muted></audio>
+    <<audio id="mi-audio" src="flores.mp3" autoplay loop muted></audio>
+
     
     
     <svg id="svg" width="800" height="600"></svg>
@@ -23,12 +24,12 @@
     <script src="script2.js"></script>
 
     <script>
-        // Asegúrate de que el audio se intente reproducir al cargar
 document.body.addEventListener('click', () => {
     const audio = document.getElementById('mi-audio');
     audio.muted = false;
     audio.play();
 });
+
     </script>
 </body>
 </html>
